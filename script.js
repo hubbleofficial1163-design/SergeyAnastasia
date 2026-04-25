@@ -359,7 +359,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // ========== GOOGLE SHEETS ==========
-    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyZtM_kpIDhNOBvFGwEGJExMsVF0BPgFPQ-EsAx1kNQ6A0g088FJTPb5R8o1ZvjeY1UlQ/exec'; // ЗАМЕНИТЕ НА ВАШ URL
+    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzgvpe1bcgsSryJk77jlEwm3YtzBHLyt52aOyR18XLK4h_R_36l-lxxJ1T8RInc_2AIpQ/exec'; // ЗАМЕНИТЕ НА ВАШ URL
     
     // Обработка формы анкеты
     const rsvpForm = document.getElementById('rsvp-form');
