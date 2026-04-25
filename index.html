@@ -233,17 +233,16 @@
                 </div>
                 
                 <!-- Количество гостей -->
-                <!-- <div class="form-group">
+                <div class="form-group">
                     <label for="guests">Количество гостей (включая вас)</label>
-                    <div class="guests-selector">
-                        <button type="button" class="guest-btn" data-value="1">1</button>
-                        <button type="button" class="guest-btn" data-value="2">2</button>
-                        <button type="button" class="guest-btn" data-value="3">3</button>
-                        <button type="button" class="guest-btn" data-value="4">4</button>
-                        <button type="button" class="guest-btn" data-value="5">5</button>
+                    <div class="guests-counter">
+                        <button type="button" class="counter-btn minus-btn" id="minus-guests">−</button>
+                        <span class="guest-count" id="guest-count">1</span>
+                        <button type="button" class="counter-btn plus-btn" id="plus-guests">+</button>
                     </div>
                     <input type="hidden" id="guests" name="guests" value="1" required>
-                </div> -->
+                    <div class="counter-error" id="counter-error"></div>
+                </div>
                 
                 <!-- Пожелания -->
                 <!-- <div class="form-group">
